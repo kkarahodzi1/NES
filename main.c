@@ -16,7 +16,7 @@ clock_t t;
 int main()
 {
     double time_taken;
-    char* filename="Donkey_kong3.nes";
+    char* filename="nestest.nes";
     loadROM(filename);
     system("pause");
     t = clock();
